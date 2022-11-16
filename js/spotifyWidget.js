@@ -15,7 +15,7 @@ class SpotifyWidget {
         this.currentValue = 0;
         this.isPaused = false;
         if (hour() > 19 || hour() < 7) {
-            this.pause = laodImage('assets/pause-night.svg');
+            this.pause = loadImage('assets/pause-night.svg');
             this.fastForward = loadImage('assets/fastForward-night.svg');
             this.rewind = loadImage('assets/rewind-night.svg');
             this.play = loadImage('assets/play-night.svg');
