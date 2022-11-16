@@ -9,8 +9,56 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js"></script>
 <script src="lib/p5.js"></script>
-
 <div>
+    <h1>Project 2: Magic Mirror Project</h1>
+    <h3>Jackson Kays</h3>
+    <h2>Links</h2>
+    <p>
+        <ul>
+            <a href="https://github.com/jacksonkays/p2.jackson.kays">Github Repository</a> <br/>
+            <a href="#design-sketch">Design Sketch</a> <br/>
+            <a href="#presentation-video">Presentation Video</a> <br />
+            <a href="#live-demo">Live Demo</a> <br/>
+        </ul>
+    </p>
+</div>
+<div>
+    <h2>Design Decisions and Project Explanation</h2>
+    <p>When designing the Magic Mirror project, I wanted to focus on ensuring giving useful and valuable information from a variety of sources, while
+        ensuring the mirror's intended use was still upheld. Following this, I decided that the widgets should be arranged in a way that gives the user plenty of space
+        to view themselves, particularly their face, and that every widget should be draggable in the use case that the user needs to expand their viewing space. This is a reason
+        why the Health and News Widgets, the widgets taking the most space on the display, are on the lower part of the Mirror, so it doesn't inhibit the user's view of their face,
+        as well as giving the widgets some symmetry within the display. In addition to this,
+        every widget has assets and coloring dependent on the time of day to provide a user with a more favorable experience and for the display not to be too harsh on their eyes, whether
+        it is day or night. These two color palettes also give the display a strong level of cohesiveness with each other, for any time of day. 
+    </p>
+    <br />
+    <p>
+        When deciding on which widgets to implement, I surveyed my friends about what were vital pieces of information they had to know when waking up and getting ready for the day. The most common
+        answers were the time, the current weather, and their calendar or to-do list for the day. For these reasons, I located the Clock Widget displaying the time and date centrally
+        in the display, above the user's head, to give it priority to all other widgets, and located the Weather and Calendar Widgets as the top two widgets on either side of the user
+        in the display, essentially to draw the user's attention to those as primary widgets. Less frequent responses were setting music to begin the day with and reading the news, which
+        I located lower on the display, and I also added a Health Widget functionality for a user to track their number of hours of sleep over the last 7 days.  
+    </p>
+    <br />
+    <p>
+        For the Weather and Clock Widgets, I provided multiple points of information, both visually and in text, such as the forecast having a text description and a corresponding
+        icon, and the time being given on the display in analog and digital. In addition, for the widgets that provided interaction, the Music and Calendar Widgets, I provded simple and 
+        intuitive control and easy reversal mechanics, with the Calendar Widget having a checkmark to 'check' off a task, and the task becoming crossed out unless you can undo the task 
+        with an 'X' to restore it, and the Music Widget offering expected play/pause and fast-forward/rewind controls. 
+    </p>
+    <h2 id="design-sketch">Design Sketch </h2>
+    <img src="assets/p2.jackson.kays.png" width="800" height="400">
+</div>
+<div id="presentation-video">
+    <h2>Presentation Video</h2>
+    <video height="400" width="800" controls>
+        <source src="assets/p2.jackson.kays.mp4" type=video/mp4>
+    </video>
+</div>
+<div>
+    <h2 id="live-demo">Live Demo</h2>
+    <h5>Unfortunately due to Github hosting guidelines, the News API is not able to be requested from this browser. </h5>
 <script src="js/calendarWidget.js"></script>
 <script src="js/clockWidget.js"></script>
 <script src="js/healthWidget.js"></script>
@@ -20,3 +68,4 @@
 <script src="js/magicMirror.js"></script>
 </div>
 </html>
+
