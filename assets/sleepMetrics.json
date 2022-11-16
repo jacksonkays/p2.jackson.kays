@@ -1,0 +1,32 @@
+{
+    "entries": [
+        {
+            "Day": "Mon",
+            "Hours": 7.6
+        },
+        {
+            "Day": "Tue",
+            "Hours": 8.2
+        },
+        {
+            "Day": "Wed",
+            "Hours": 6.7
+        },
+        {
+            "Day": "Thu",
+            "Hours": 6.2
+        },
+        {  
+            "Day": "Fri",
+            "Hours": 6.5
+        },
+        {
+            "Day": "Sat",
+            "Hours": 8.7
+        },
+        {
+            "Day": "Sun",
+            "Hours": 8.9
+        }
+    ]
+}
