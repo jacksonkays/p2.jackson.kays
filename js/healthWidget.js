@@ -81,6 +81,12 @@ class HealthWidget {
 
     drawGraph() {
         strokeWeight(4);
+        if (hour() > 19 || hour() < 7) {
+            stroke(255);
+        }
+        else {
+            stroke(0);
+        }
         line(this.x + 20, this.y + 60, this.x + 20, this.y + this.h - 20);
         line(this.x + 20, this.y + this.h - 20, this.x + this.w - 30, this.y + this.h - 20);
         strokeWeight(1);
