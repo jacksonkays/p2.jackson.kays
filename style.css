@@ -1,0 +1,10 @@
+.class1{
+    font-family: "Comic Sans MS";
+    font-size: 48px;
+}
+
+.canvas_class{
+    transform: translateX(50vw)
+
+    /*font-size: 48px;*/
+}
