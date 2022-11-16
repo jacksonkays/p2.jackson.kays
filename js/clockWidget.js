@@ -132,7 +132,14 @@ class ClockWidget {
         {
             minuteValue = "0" + minuteValue;
         }
-
+        if (hour() > 19 || hour() < 7) {
+            if (this.dragging){
+                fill(0);
+            }
+            else {
+                fill(255);
+            }
+        }
         textSize(40);
         if (isPM) {
             text(hourValue + ":" + minuteValue + " PM", this.x + 170, this.y + 50);
